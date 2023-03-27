@@ -1,0 +1,36 @@
+.triangle-color{
+    height: 0;
+    width: 0;
+    border: solid;
+    border-width:  100px 50px;
+    border-color: white white transparent white;
+    margin: auto 5px;
+    z-index: -1;
+}
+
+.list-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    margin-bottom: -60px;
+}
+
+.button-delete{
+    margin-top: 10px;
+    width: 150px;
+    border: transparent;
+    border-radius: 25px;
+    color: whitesmoke;
+    height: 40px;
+    background-color: rgb(23, 23, 99);
+    cursor: pointer;
+}
+
+.button-delete:hover{
+    opacity: .8;
+}
+
+.color-text{
+    margin:  8px;
+}

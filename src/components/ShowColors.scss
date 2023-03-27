@@ -1,0 +1,24 @@
+$border: 2px solid #F5F5F5;
+
+.show-colors-form{
+   margin-bottom: -80px;
+   margin-top: 15px;
+   padding: 10px 0;
+   border-top: $border;
+   border-bottom: $border;
+}
+
+.list-unorder{
+    padding: 0;
+}
+
+.input-flex-box{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 200px;
+}
+
+.border-bottom{
+    border-bottom: $border;
+}
